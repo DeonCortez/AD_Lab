@@ -2,7 +2,7 @@
 ## Tutorial: Setting Up a Basic Home Lab with Active Directory on Oracle VirtualBox and Connecting a Client Machine
 
 ### Overview
-This tutorial provides a comprehensive guide to setting up a home lab environment using Oracle VirtualBox to run Active Directory and includes steps to configure a Windows 11 client machine to connect through the domain controller. Additionally, we will use PowerShell to automate the creation of 1,000 users from a list of names stored in a text file.
+This tutorial provides a simple guide to setting up a home lab environment using Oracle VirtualBox to run Active Directory and includes steps to configure a Windows 11 client machine to connect through the domain controller. Additionally, we will use PowerShell to automate the creation of 1,000 users from a list of names stored in a text file.
 
 ### Prerequisites
 - Oracle VirtualBox installed on your host machine
