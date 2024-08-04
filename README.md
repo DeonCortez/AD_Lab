@@ -71,7 +71,7 @@ This tutorial provides a simple guide to setting up a home lab environment using
 1. **Create a text file** named `UserList.txt` with each line containing a first and last name separated by a space (e.g., `John Doe`).
 
 ##### 5.2 **PowerShell Script to Create Users**
-1. **Open PowerShell** on the Domain Controller with administrative privileges.
+1. **Open PowerShell ISE** on the Domain Controller with administrative privileges.
 2. **Use the following script** to create users:
    ```powershell
    # Import the list of names
