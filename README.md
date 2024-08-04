@@ -2,7 +2,7 @@
 ## Tutorial: Setting Up a Basic Home Lab with Active Directory on Oracle VirtualBox and Connecting a Client Machine
 
 ### Overview
-This tutorial provides a simple guide to setting up a home lab environment using Oracle VirtualBox to run Active Directory and includes steps to configure a Windows 11 client machine to connect through the domain controller. Additionally, we will use PowerShell to automate the creation of 1,000 users from a list of names stored in a text file.
+This tutorial provides a simple guide to setting up a home lab environment using Oracle VirtualBox to run Active Directory and includes steps to configure a Windows 11 client machine to connect through the domain controller. Additionally, we will use PowerShell to automate the creation of 500 users from a list of names stored in a text file (UserList.txt).
 
 ### Prerequisites
 - Oracle VirtualBox installed on your host machine
@@ -68,7 +68,7 @@ This tutorial provides a simple guide to setting up a home lab environment using
 #### 5. **Create Users with PowerShell**
 
 ##### 5.1 **Prepare the User List**
-1. **Create a text file** named `UserList.txt` with each line containing a first and last name separated by a space (e.g., `John Doe`).
+1. **Download text file** named `UserList.txt` from the main branch in this repository.
 
 ##### 5.2 **PowerShell Script to Create Users**
 1. **Open PowerShell ISE** on the Domain Controller with administrative privileges.
@@ -108,6 +108,6 @@ This tutorial provides a simple guide to setting up a home lab environment using
    ```
 
 ### Conclusion
-This tutorial outlines the process of setting up a basic home lab with Oracle VirtualBox, configuring Active Directory, and connecting a Windows 11 client machine. Additionally, it demonstrates using PowerShell to automate the creation of 1,000 users from a text file.
+This tutorial outlines the process of setting up a basic home lab with Oracle VirtualBox, configuring Active Directory, and connecting a Windows 11 client machine. Additionally, it demonstrates using PowerShell to automate the creation of 500 users from a text file.
 
 Feel free to reach out for any questions or further details!
